@@ -1,4 +1,4 @@
-import Notiflix from '../../node_modules/notiflix';
+import Notiflix from 'notiflix';
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
